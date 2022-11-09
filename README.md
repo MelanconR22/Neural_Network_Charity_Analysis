@@ -53,7 +53,16 @@ This analysis will use a csv from Alphabet Soup's business team that contains mo
 
 ![score2](https://user-images.githubusercontent.com/107599510/200917503-799e02a7-f433-4145-9008-b063e6490f52.png)
 
-* The second optimization attempt
+* This model did achieve the first 0.7571 accuracy score on epoch 17 and achieved an accuracy of 0.9062 on epoch 69.  That was the highest accuracy score for an epoch during the 100 epochs that were tested.
 
+#### 2nd Optimization Attempt - How many neurons, layers, and activation functions did you select for your neural network model, and why? Were you able to achieve the target model performance? What steps did you take to try and increase model performance?
+
+* The second optimization attempt used 10 neurons in the first hidden layer and 3 neurons in the second hidden later.  The two hidden layers were activated with the sigmoid funciton and the output layer was activated with the relu function.  This was chosen to be the opposite of the original model to see if the accuracy score would increase.  
+
+![model3](https://user-images.githubusercontent.com/107599510/200919683-ef674457-6349-4eda-a0ba-84f301f44c57.png)
+
+* The accuracy of this model dropped to 0.7202 which is short of the desired 0.75 target score.
+
+![score3](https://user-images.githubusercontent.com/107599510/200919941-c6ae253c-2901-445d-b6d1-fd279d2c02cc.png)
 
 ## Summary: Summarize the overall results of the deep learning model. Include a recommendation for how a different model could solve this classification problem, and explain your recommendation.
