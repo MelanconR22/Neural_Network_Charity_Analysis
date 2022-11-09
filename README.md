@@ -32,6 +32,10 @@ This analysis will use a csv from Alphabet Soup's business team that contains mo
 
 ### Compiling, Training, and Evaluating the Model
 ##### How many neurons, layers, and activation functions did you select for your neural network model, and why?
+* This model has input features and two hidden layers.  The first hidden layer has 3 neurons while the second hidden layer has 1 neuron.  The number of neurons was selected in an effort to be as efficient and use as few resources as possible. 
+
+![model1](https://user-images.githubusercontent.com/107599510/200913253-d48ed241-3eaa-43ce-ad9b-2e57e5cb1c1a.png)
+
 ##### Were you able to achieve the target model performance?
 ##### What steps did you take to try and increase model performance?
 ## Summary: Summarize the overall results of the deep learning model. Include a recommendation for how a different model could solve this classification problem, and explain your recommendation.
