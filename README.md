@@ -37,11 +37,23 @@ This analysis will use a csv from Alphabet Soup's business team that contains mo
 
 ![model1](https://user-images.githubusercontent.com/107599510/200913253-d48ed241-3eaa-43ce-ad9b-2e57e5cb1c1a.png)
 
-The first optimization attempt used the same hidden layers and neurons but changed all of the activation functions to sigmoid due to the desired output being a binary classification.
+* The original attempt resulted in an accuracy score of 0.7209 which did not meet the 0.75 target performance.
+
+![score1](https://user-images.githubusercontent.com/107599510/200917108-f945d4bd-2f25-4116-85d8-ac88cb350ddf.png)
+
+* This model did achieve the first 0.75 accuracy score on epoch 20 and achieved an accuracy of 0.8438 on epoch 24.  That was the highest accuracy score for an epoch during the 100 epochs that were tested.
+
+#### 1st Optimization Attempt - How many neurons, layers, and activation functions did you select for your neural network model, and why? Were you able to achieve the target model performance? What steps did you take to try and increase model performance?
+
+* The first optimization attempt used the same hidden layers and neurons but changed all of the activation functions to sigmoid due to the desired output being a binary classification.
 
 ![model2](https://user-images.githubusercontent.com/107599510/200916458-3797a0b2-50ee-43c1-a51d-3088f0757315.png)
 
-The second optimization attempt
+* This attempt resulted in a slightly higher accuracy score of 0.7247 but ended up short of the desired 0.75 target score.
+
+![score2](https://user-images.githubusercontent.com/107599510/200917503-799e02a7-f433-4145-9008-b063e6490f52.png)
+
+* The second optimization attempt
 
 
 ## Summary: Summarize the overall results of the deep learning model. Include a recommendation for how a different model could solve this classification problem, and explain your recommendation.
