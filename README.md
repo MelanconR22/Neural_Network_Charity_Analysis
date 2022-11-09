@@ -65,4 +65,21 @@ This analysis will use a csv from Alphabet Soup's business team that contains mo
 
 ![score3](https://user-images.githubusercontent.com/107599510/200919941-c6ae253c-2901-445d-b6d1-fd279d2c02cc.png)
 
+* This model did achieve the first 0.75 accuracy score on epoch 15 and achieved an accuracy of 0.8125 on epoch 47.  That was the highest accuracy score for an epoch during the 100 epochs that were tested.
+
+#### 3rd Optimization Attempt - How many neurons, layers, and activation functions did you select for your neural network model, and why? Were you able to achieve the target model performance? What steps did you take to try and increase model performance?
+
+* The third optimization attempt used 25 neurons in the first hidden layer and 7 neurons in the second hidden later.  The two hidden layers were activated with the sigmoid funciton and the output layer was activated with the relu function.  This was chosen to be the opposite of the original model to see if the accuracy score would increase.  Additionally, the epochs were increased from 100 to 300 to see if additional learning would help. 
+
+![model4](https://user-images.githubusercontent.com/107599510/200922552-bf9ab194-4d43-4ae8-8352-191025e5266d.png)
+
+* The accuracy of this model came in at the highest mark of 0.7254 but was still short of the desired 0.75 target score.
+
+![score4](https://user-images.githubusercontent.com/107599510/200922980-d1d10c2f-68de-40f1-b0c2-3f8b49216343.png)
+
+* This model did achieve the first score above 0.75 which was 0.7677 accuracy score on epoch 16.  Additionally, the model achieved an accuracy of 0.8125 on epoch 19 with the highest accuracy score of 0.8438 on epoch 248.   That was the highest accuracy score for an epoch during the 300 epochs that were tested.
+
 ## Summary: Summarize the overall results of the deep learning model. Include a recommendation for how a different model could solve this classification problem, and explain your recommendation.
+
+The model did not achieve the desired target score.  This set of data might be better classified using the tanh activation function with sigmoid output.  There could also be room to remove the SPECIAL_CONSIDERATIONS feature to see if the data becomes easier to classify.  The models also seemed to reach desired accuracy in a short amount of epochs so running the model with less epochs could produce higher accuracy numbers.
+
